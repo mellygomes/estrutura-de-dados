@@ -36,7 +36,7 @@ int main() {
 
     fprintf(arquivo, "\n\nTotal: R$ %.2f", total);
 
-    printf("%.2f", total);
+    printf("\nTotal R$: %.2f", total);
 
     fclose(arquivo);
     return 0;
