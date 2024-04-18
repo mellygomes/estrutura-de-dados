@@ -51,12 +51,9 @@ int main() {
             exit(1);
         }
 
-// criar um vetor de structs em um for (ate n de vertices)
+// criar um vetor de structs em um while/for (ate n de vertices)
         fscanf(arquivo, "%f\n", &NumeroVertices);
         fscanf(arquivo, "%f %f", &Poligono[i].X, &Poligono[i].Y );
-        
-        
-        
         
         //fscanf(arquivo, "%f %f", &B.X, &B.Y );
         //fscanf(arquivo, "%f %f", &C.X, &C.Y );
