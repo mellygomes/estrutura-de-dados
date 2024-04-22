@@ -100,25 +100,3 @@ int main() {
     
     return 0;
 }
-
-/* NOTAS DE MODIFICAÇÃO ENTRE AS VERSÕES 2 E FINAL:
-1- Criação e edição de comentários.
-
-2- linha 25: alteração de {<= 6.99} para {< 7}.
-    Motivo: da forma como estava as notas entre 6.99 e 7.00 (ex: 6.995) cairiam na saída "ERRO AO VERIFICAR".
-
-3- Modificação dos nomes das seguintes variavéis:
-    mediaFinalAluno --> situacao
-    mediaAluno --> media
-    f1 --> arquivoEntrada
-    f2 --> arquivoSaida
-    Motivo: facilitar a leitura e compreenção do código.
-
-4- EXCLUSÃO: tudo que estava presente na linha 23 {situacao[18];}
-    Motivo: redundância, pois a variável já estava definida na linha 21.
-
-5- CRIAÇÃO da função processarDados.
-    Motivo: Encapsulamento de código. Na nova função entram a parte do código responsável pela leitura e
-    processamento de dados dos arquivos, código esse que estava presente na MAIN. O encapsulamento deixa o
-    código mais flexivel, melhora na compreenção e torna mais fácil a detecção de possíveis erros.
-*/
