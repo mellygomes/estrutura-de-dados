@@ -92,7 +92,7 @@ int main() {
     processarDados(arquivoEntrada, arquivoSaida);
 
     // print no terminal informando que o arquivo foi gerado corretamente
-    printf("\n\nArquivo de saida foi gerado com sucesso!\n\n");
+    printf("\n\nO arquivo de saida foi gerado com sucesso!\n\n");
 
     // Fechando os arquivos
     fclose(arquivoEntrada);
